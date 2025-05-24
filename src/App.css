@@ -1,7 +1,6 @@
 @import url("//fonts.googleapis.com/css?family=Work+Sans:300,400,600"); 
 
 header.style{
-
 }
 
 body{
@@ -18,7 +17,6 @@ body{
   background-size:cover;
   background-position: center;
   object-fit: cover;
-  /* height: 100vh; */
   min-width: 100vW;
   overflow-y: scroll;
   min-height: 100vh;
@@ -29,8 +27,6 @@ body{
   min-width: 100vW;
   min-height: 100vh;
   overflow-y: scroll;
-  /* margin: 0;
-  padding: 0; */
   position: absolute;
 }
 
@@ -39,7 +35,6 @@ body{
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column; */
   box-sizing: border-box;
   max-width: 990px;
   height: 60px;
@@ -56,20 +51,11 @@ body{
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column; */
   box-sizing: border-box;
   max-width: 990px;
   height: 68px;
   margin: auto;
 }
-
-/* .head, .head__admin{
-  box-sizing: border-box;
-  max-width: 990px;
-  height: 68px;
-  margin: auto;
-  padding: 14px;
-} */
 
 .logo{
   width: 212px;
@@ -85,7 +71,6 @@ body{
 }
 
 .logo__tipe{
-  /* min-width: 212px; */
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
@@ -113,18 +98,14 @@ body{
 
 .login__div{
   background-color: rgba(234, 233, 235, 0.95);
-  /* margin-top: 73px; */
   margin: 53px auto 2px auto;
   width: 480px;
   height: 294px;
-  /* margin-right: 25%;
-  margin-left: 25%; */
 }
 
 .login__form{
   display: flex;
   flex-wrap: wrap;
-  /* height: 200px; */
 }
 
 .login__form__name{
@@ -211,7 +192,6 @@ body{
 .client__main, .admin__main{
   max-width: 962px;
   margin: auto;
-  /* margin-right: 15%; */
 }
 
 .days__list{
@@ -276,7 +256,6 @@ body{
   padding: 15px;
   border-radius: 2px;
   width: 100%;
-  /* height: 350px; */
 }
 
 .film__info{  
@@ -284,13 +263,11 @@ body{
   flex-wrap: nowrap;
   justify-content: space-between;
   width: 100%;
-  /* height: 175px; */
 }
 
 .film__poster{
   width: 125px;
   height: 175px; 
-  /* object-fit: ; */
 }
 
 .film__text{
@@ -370,7 +347,6 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* height: 300px; */
 }
 
 .section__header{
@@ -392,7 +368,6 @@ body{
   right: 2%;
   top: 10%;
   background-color: rgb(155, 113, 161);
-  /* width: 5%; */
 }
 
 .section__header__arrow:hover{
@@ -426,7 +401,6 @@ body{
   display: block;
 }
 
-/* CreateHall Styles */
 .create__hall{
   color: #fff;
   background-color: rgb(9, 128, 116);
@@ -495,7 +469,6 @@ body{
 }
 
 .label__row, .label__place{
-  /* width: 45%; */
   position: absolute;
   top: -25%;
   color: #5f5d5d;
@@ -543,7 +516,6 @@ body{
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
-  /* flex-direction: column; */
   border: 1px solid black;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -591,25 +563,15 @@ body{
   padding-bottom: 5px;
 }
 
-/* .place {
-  border: 1px solid black;
-  width: 20px;
-  height: 20px;
-} */
-
 .hall__status__form{
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
-  /* gap: 3%; */
   justify-content: space-between;
   padding: 0 5%;
-  /* position: relative;
-  align-items: center; */
 }
 
 .status__container{
-  /* min-width: 30%;  */
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -625,10 +587,7 @@ body{
   right: 103%;
   width: 18px;
   height: 18px;
-  /* border: 1px solid #000000; */
   border-radius: 3px;
-  /* background-color: darkgrey; */
-  /* margin-right: 1px; */
 } 
 
 .status__span::before {
@@ -638,9 +597,6 @@ body{
   width: 100%;
   height: 100%;
   background-color: rgb(155, 113, 161);
-  /* top: 50%;
-  left: 50%; */
-  /* transform: translate(-50%, -50%); */
 }
 
 .status__input{
@@ -651,7 +607,6 @@ body{
   display: block;
 }
 
-/* .standart, .vip,  .disabled */
 .place {
   border: 1px solid black;
   width: 20px;
@@ -700,13 +655,6 @@ body{
 .active{
   display: block;
 }
-
-/* .label__row, .label__place{
-  /* width: 45%; */
-  /* position: absolute;
-  top: -25%;
-  color: #5f5d5d;
-}  */
 
 .hall__prices__form{
   display: flex;
@@ -900,10 +848,6 @@ body{
   box-sizing: border-box;
   margin: 0;
   padding-top: 14px;
-  /* padding-: 14px; */
-  /* margin-top: 27px; */
-  /* padding: 12% 0 0 0; */
-  /* text-align: center; */
 }
 
 .into__lent__time{
@@ -948,7 +892,6 @@ body{
   gap: 10px;
   justify-content: space-between;
   padding: 40px;
-  /* padding: 20px 0 20px 100px; */
 }
 
 .popup__header{
@@ -1029,7 +972,6 @@ body{
 }
 
 .film__add__btn, .poster__add__btn, .poster__show__popup{
-  /* width: 50%; */
   color: #fff;
   background-color: rgb(9, 128, 116);
   font-size: 10px;
@@ -1042,20 +984,6 @@ body{
   display: none;
   visibility:hidden;
 }
-
-/* .film__poster__label{ 
-  display: inline-block;
-  font-family: Work Sans;
-  padding: 15px;
-  align-items: center;
-  text-align: center;
-  cursor: pointer;
-  color: #fff;
-  background-color: rgb(9, 128, 116);
-  font-size: 10px;
-  border-radius: 5px;
-  box-shadow: 0px 2px 3px 2px rgba(34, 60, 80, 0.2);
-} */
 
 .selected__poster{
   text-align: center;
@@ -1090,7 +1018,6 @@ body{
   left: 0;
   width: 100%;
   height: 100%;
-  /* background-color: rgba(0, 0, 0, 0.5); */
   display: none;
   z-index: 100;
 }
@@ -1143,17 +1070,12 @@ body{
 }
 
 .head__popup__current__config, .head__popup__booking, .head__popup__order{
-  /* background; */
-  /* width: 990px; */
   display: block;
   box-sizing: border-box;
   max-width: 990px;
   height: 68px;
   margin: auto;
   padding: 14px;
-  /* position: fixed;
-  top: 0; */
-  /* left: 0;  */
 }
 
 .info__current__config{
@@ -1176,7 +1098,6 @@ body{
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;
-  /* margin-top: -2px; */
 }
 
 .info__current__time {
@@ -1194,7 +1115,6 @@ body{
 
 .popup__seance__click{
   top: 380px;
-  /* left: 50%; */
 }
 
 .current__hall__zone{
@@ -1225,12 +1145,8 @@ body{
   width: 284px;
   height: 240px;
   box-sizing: border-box;
-  /* padding-top: 10px; */
   margin: auto;
   justify-content: center;
-  /* align-items: center;
-  text-align: center; */
-  /* position: relative; */
 }
 
 .free__vip, .vip{
@@ -1265,7 +1181,6 @@ body{
 .current__row{
   display: flex;
   flex-wrap: nowrap;
-  /* width: 100%; */
   justify-content: space-between;
   text-align: center;
   align-items: center;
@@ -1292,7 +1207,6 @@ body{
 
 .prices__zone__column{
   display: flex;
-   /* width: 50%; */
   flex-wrap: wrap;
   gap: 10px;
   padding-top: 3px;
@@ -1313,9 +1227,7 @@ body{
   text-align: center;
   align-items: center;
   width: 100%;
-  /* margin-left: 3px; */
   gap: 3px;
-  /* margin-top: px; */
 }
 
 .standart, .vip, .disabled, .booking{
@@ -1358,7 +1270,6 @@ body{
   border-radius: 1px;
   box-sizing: border-box;
   padding: 10px 15px;
-  /* position: relative; */
 }
 
 .popup__header__booking, .popup__header__order{
@@ -1381,9 +1292,6 @@ body{
   font-size: 22px;
   line-height: 25px;
   color: rgba(199, 111, 0, 1);
-  /* box-sizing: border-box;
-  padding: 10px 15px; */
-  /* position: relative; */
 }
 
 .border__top{
@@ -1420,7 +1328,6 @@ body{
   line-height: 18px;
   margin-top: 10px;
   margin-bottom: 0;
-  /* margin-left: 15px; */
 }
 
 .popup__booking__data__bold, .popup__order__data__bold{
@@ -1431,12 +1338,8 @@ body{
 }
 
 .btn__popup__booking{
-  /* margin-top: 30px;
-  margin-left: 310px; */
   margin: 30px 310px 15px ;
   width: 337px;
-  /* align-items: center; */
-  /* padding: 11px 57px; */
   background-color: rgba(22, 166, 175, 1);
   color: rgba(255, 255, 255, 1);
   font-size: 14px;
@@ -1475,7 +1378,6 @@ body{
   border-radius: 1px;
   box-sizing: border-box;
   padding: 10px 15px;
-  /* position: relative; */
 }
 
 .qrcode svg{
